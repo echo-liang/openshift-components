@@ -2,15 +2,15 @@ app {
     name = "${opt.'name'?:'jenkins-basic'}"
     namespaces { //can't call environments :(
         'build'{
-            namespace = 'bcgov-tools'
+            namespace = '5115cc-tools'
             disposable = true
         }
         'dev' {
-            namespace = 'bcgov'
+            namespace = '5115cc-dev'
             disposable = true
         }
         'prod' {
-            namespace = 'bcgov'
+            namespace = '5115cc-prod'
             disposable = false
         }
     }
